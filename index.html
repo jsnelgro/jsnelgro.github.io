@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="johnny snelgrove's personal website">
+	<meta name="author" content="johnny snelgrove">
+	<link rel="shortcut icon" href="/favicon.ico">
+
+	<title>Johnny Snelgrove</title>
+
+	<!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	<link href="css/style.css" rel="stylesheet">
+
+	<!-- Custom Fonts -->
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+	</head>
+
+	<body id="page-top" class="index">
+        <!-- rightside nav dots -->
+		<div class="nav-dot-container">
+            
+			<ul class="pull-right">
+				<li class="page-scroll">
+					<a href="#page-top"><i class="circle"></i></a>
+				</li>
+				<li class="page-scroll">
+					<a href="#portfolio"><i class="circle"></i></a>
+				</li>
+				<li class="page-scroll">
+					<a href="#about"><i class="circle"></i></a>
+				</li>
+				<li class="page-scroll">
+					<a href="#contact"><i class="circle"></i></a>
+				</li>
+			</ul>
+		</div>
+      <button id="resume-btn" class="pull-left btn btn-default"><div>resumé</div></button>
+      <div id="main-content">
+
+		<!-- Header -->
+		<header id="intro-body">
+			<div id="intro-background">
+				<div id="intro-output"></div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<img class="selfie-img img-responsive img-med-square" src="img/profilegittranz.png" alt="john johnny snelgrove github avatar developer">
+						<div class="intro-text">
+							<span class="name">Johnny Snelgrove</span>
+							<span class="skills">Computers - Music - Brains</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- Portfolio Grid Section -->
+		<section id="portfolio">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<h2>Projects</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-4 portfolio-item">
+						<a href="http://drawing.johnnysnelgrove.me" class="portfolio-link" data-toggle="modal">
+							<div class="caption">
+								<div class="caption-content">
+									<span>Creativity Study</span>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-sm-4 portfolio-item">
+						<a href="http://phonetic.johnnysnelgrove.me" class="portfolio-link" data-toggle="modal">
+							<div class="caption">
+								<div class="caption-content">
+									<span>Tranzlatortron 5000</span>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-sm-4 portfolio-item">
+						<a href="http://www.cdbaby.com/cd/johnnysnelgrove" class="portfolio-link" data-toggle="modal">
+							<div class="caption">
+								<div class="caption-content">
+									<div>Robots &amp; Trees</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="row text-center github-row">
+					<a href="https://github.com/jsnelgro"><i alt="github icon" class="github-link fa fa-github fa-5x"></i></a>
+					<p>Check out my Github account for even more projects!</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- About Section -->
+		<section class="success" id="about">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<h2>About</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4">
+						<p>I'm Johnny. I like music, programming, and building things. I'm also really interested in artificial intelligance and cognition. I graduated from Brown University in 2015 with a degree in cognitive science and minors in music and computer science.</p>
+						<p>Building things is especially fun. I build things all the time. If you want me to build something for you out of computer code, let me know by clicking this button!</p>
+						<div class="page-scroll">
+							<a href="#contact" class="btn btn-lg btn-outline contact-btn johnny-btn">
+								<i class="fa fa-envelope-o"></i>
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<img src="./img/fire_guitar.jpg" alt="Johnny Snelgrove guitar music robots and trees green tea web developer" class="img-responsive img-circle prof-pic"/>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Contact Section -->
+		<section id="contact">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<h2>Contact Me</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2">
+						<form name="sentMessage" id="contactForm" novalidate>
+							<div class="row control-group">
+								<div class="form-group col-xs-12 floating-label-form-group controls">
+									<label>Name</label>
+									<input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+									<p class="help-block text-danger"></p>
+								</div>
+							</div>
+							<div class="row control-group">
+								<div class="form-group col-xs-12 floating-label-form-group controls">
+									<label>Email Address</label>
+									<input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+									<p class="help-block text-danger"></p>
+								</div>
+							</div>
+							<div class="row control-group">
+								<div class="form-group col-xs-12 floating-label-form-group controls">
+									<label>Phone Number</label>
+									<input type="tel" class="form-control" placeholder="Phone Number" id="phone">
+									<p class="help-block text-danger"></p>
+								</div>
+							</div>
+							<div class="row control-group">
+								<div class="form-group col-xs-12 floating-label-form-group controls">
+									<label>Message</label>
+									<textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+									<p class="help-block text-danger"></p>
+								</div>
+							</div>
+							<br>
+							<div id="success"></div>
+							<div class="row">
+								<div class="email-me-btn-div form-group col-xs-12">
+									<button type="submit" class="btn btn-lg btn-outline email-me-btn johnny-btn">Send</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer class="text-center">
+			<div class="footer-below">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							Copyright &copy; Johnny Snelgrove 2014
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+      </div>
+
+
+
+
+		<div id="resume-content">
+			<h1 id="resume-name" class="hidden">Johnny Snelgrove</h1>
+			<div id="contact-info">
+				<p>phone: 360-301-2655</p>
+				<p>email: johnny.snelgrove@gmail.com</p>
+				<p>github: https://github.com/jsnelgro</p>
+				<p>website: http://johnnysnelgrove.me</p>
+                <p>address: Box 3132, 69 Brown st. Providence, RI 02912</p>
+			</div>
+
+
+			<div id="education" class="content-block">
+				<h3>Education</h3>
+				<div class="content-div">
+					<div class="header">
+						<h4>Brown University, B.A. Cognitive Science, Providence, RI, Spring 2013 – Expected Graduation Spring 2015</h4>
+					</div>
+					<ul class="class-list">
+						<li>Cumulative GPA: ~3.7</li>
+						<li>Relevant Coursework:
+							<ul>
+								<li>Artificial Intelligence, Building Modern Web Apps, Computational Cognition, Object-Oriented Programming, Algorithms &amp; Data Structures, Web Design, Computational Cognitive Neuroscience, Cognitive Neuroscience, Social Psychology, Management of Industrial and Non-Profit Organizations
+                              </li>	
+                          </ul>
+						</li>
+
+					</ul>
+				</div>
+				<div class="content-div">
+					<div class="header">
+						<h4>Willamette University, Two years towards B.A. in Music, Salem, OR, Fall 2009 – Fall 2011</h4>
+					</div>
+					<ul class="class-list">
+						<li>Cumulative GPA: ~3.7</li>
+						<li>Relevant Coursework:
+							<ul>
+								<li>Symbolic Logic,
+								Sensation &amp; Perception,
+								Psychology, </li>
+							</ul>
+						</li>
+						<li>Recipient of the Promising Musician Grant (2011)</li>
+					</ul>
+				</div>
+			</div>
+
+
+			<div id="jobs" class="content-block">
+				<h3>Work Experience</h3>
+							<div class="content-div">
+					<div class="header">
+						<h4>Brown Web Services, Web Designer/Developer, Brown University, May 2014 – present</h4>
+					</div>
+					<ul class="job-descriptor">
+						<li>Wrote a Drupal module for interfacing with Brown’s Google Analytics account and visualizing site-specific data</li>
+                        <li>Wrote an extensible, customizable, and scalable Drupal module for displaying a weekly hours schedule</li>
+						<li>Learned PHP quickly and worked directly with mySQL database and Drupal nodes</li>
+					</ul>
+				</div>	
+              <div class="content-div">
+					<div class="header">
+						<h4>Serre Lab, Developer, Brown University, Summer 2014 – present</h4>
+					</div>
+					<ul class="job-descriptor">
+                      <li>Heavily modified a flow-based visual programming web-app written in Coffeescript to be used as an image processing interface</li>
+                      <li>Allowed users to construct and visualize different stages of neural processing in the human visual system</li>
+                      <li>Project received a National Science Foundation grant</li>
+					</ul>
+				</div>
+				<div class="content-div">
+					<div class="header">
+						<h4>Web Developer/Designer, Freelance, Providence, RI, June 2012 – present</h4>
+					</div>
+					<ul class="job-descriptor">
+						<li>developed/designed frontend for small businesses</li>
+						<li>used Wordpress as cms, or Bootstrap for static sites</li>
+						<li>worked closely with clients to make sure they were pleased with the site</li>
+					</ul>
+				</div>
+				<div class="content-div">
+					<div class="header">
+						<h4>Ingorda, Publishing House Intern, Firenze, Italy, September 2012 – December 2012</h4>
+					</div>
+					<ul class="job-descriptor">
+						<li>worked with a graphic designer to finish design for a culinary arts book</li>
+						<li>edited content of Ingorda's quarterly magazine and wrote several articles</li>
+						<li>developed a working understanding of Italian in a short amount of time</li>
+					</ul>
+				</div>
+			</div>
+
+
+			<div id="projects" class="content-block">
+				<h3>Projects</h3>
+				<div class="content-div">
+					<div class="header">
+						<h4>Finalist, GoogleIntros, Hack@Brown 2014, Providence, RI, January 2014</h4>
+					</div>
+					<ul class="job-descriptor">
+						<li>Created a Google Glass app in Android(SDK), which took input in the form of a photo and audio to associate a name with the face of a new acquaintance.</li>
+						<li>Input sent to a server to be saved to a database and processed using a facial recognition API, allowing the user to take a photo at a later time for comparison to return an acquaintance's name</li>
+					</ul>
+				</div>
+				<div class="content-div">
+					<div class="header">
+						<h4>Developer, Phonetic Dialect Translator, Providence, RI, April 2013</h4>
+					</div>
+					<ul class="job-descriptor">
+                      <li>Built a web app to generate phonetic transcriptions given a set of phonological rules</li>
+                  </ul>
+				</div>
+				<div class="content-div">
+					<div class="header">
+						<h4>Developer, Freechat, Providence, RI, April 2014</h4>
+					</div>
+					<ul class="job-descriptor">
+						<li>conceptualized and built a Snapchat-eque texting webapp with just a designer and myself</li>
+						<li>developed the backend using the Facebook Graph API, node.js, express, mongoDB, and socket.io</li>
+						<li>coded the frontend using javascript/jquery</li>
+					</ul>
+				</div>
+				<div class="content-div">
+					<div class="header">
+						<h4>Robots &amp; Trees EP, Self Produced Album, Port Townsend, WA, January 2012</h4>
+					</div>
+					<ul class="job-descriptor">
+						<li>produced, wrote, recorded, and performed all tracks on the album</li>
+						<li>the Snail Song was a big hit</li>
+						<li>available on iTunes, Amazon, Pandora, etc</li>
+					</ul>
+				</div>
+			</div>
+
+
+			<div id="skills" class="content-block">
+				<h3>Skills</h3>
+				<ul class="descriptor">
+					<li>CSS/HTML5/JavaScript</li>
+					<li>Node.js</li>
+                    <li>Python</li>
+					<li>Java</li>
+					<li>PHP</li>
+					<li>fast learner</li>
+				</ul>
+			</div>
+
+
+			<div id="interests" class="content-block">
+				<h3>Interests</h3>
+				<ul class="descriptor">
+					<li>Avant-garde jazz</li>
+					<li>neural networks</li>
+					<li>cognition</li>
+					<li>psychology</li>
+					<li>building and designing things</li>
+					<li>learning</li>
+					<li>emerging technology</li>
+					<li>sustainability</li>
+				</ul>
+			</div>
+		</div>
+      
+    		<!-- jQuery -->
+		<script src="js/jquery.js"></script>
+        <script src="js/jquery.waypoints.min.js"></script>
+
+		<!-- Bootstrap Core JavaScript -->
+		<script src="js/bootstrap.min.js"></script>
+
+		<!-- Plugin JavaScript -->
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+		<script src="js/classie.js"></script>
+		<script src="js/cbpAnimatedHeader.js"></script>
+
+		<!-- Contact Form JavaScript -->
+		<script src="js/jqBootstrapValidation.js"></script>
+		<script src="js/contact_me.js"></script>
+		<!-- Custom Theme JavaScript -->
+		<script src="js/fss.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+
+	</html>
