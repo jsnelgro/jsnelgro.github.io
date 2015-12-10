@@ -240,6 +240,10 @@ section.success {
     z-index: 2;
 }
 
+#portfolio div.col-lg-12.text-center {
+    float: none !important;
+}
+
 @media(min-width:767px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
