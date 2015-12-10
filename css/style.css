@@ -112,7 +112,7 @@ header .intro-text .skills {
 
 header .intro-text {
   text-shadow:
-   -1px -1px 0 #000,  
+   -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
      1px 1px 0 #000;
@@ -465,7 +465,7 @@ footer .footer-below {
 }
 
 #portfolio .portfolio-item a {
-    opacity: 1;    
+    opacity: 1;
     /*border: 1px solid white;*/
     height: 212px;
     background-color: #E04949;
